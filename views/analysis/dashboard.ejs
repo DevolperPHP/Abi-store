@@ -1,0 +1,16 @@
+<%- include("../layout/navbar") -%>
+
+<div class="analysis">
+    <p class="title">Data analysis</p>
+    <div class="search">
+        <div class="flex">
+            <label for="date">Start date: </label><input id="startDate" type="date">
+            <label for="date">End date: </label><input  id="endDate" type="date">
+        </div>
+        <center><button class="btn btn-primary" onclick="search()">Search</button></center>
+    </div>
+</div>
+
+<script src="/javascript/analysis.js"></script>
+
+<%- include("../layout/footer") -%>
